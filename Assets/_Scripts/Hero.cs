@@ -13,6 +13,7 @@ public class Hero : MonoBehaviour {
 
 
     // Ship status information
+    public float sheildLevel = 1;
     [SerializeField]
     private float _shieldLevel = 1;            // Add the underscore!
 
