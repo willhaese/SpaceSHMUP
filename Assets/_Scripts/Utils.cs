@@ -220,6 +220,8 @@ public class Utils : MonoBehaviour
     }
 
 
+    //=========================== Materials Functions ============================\\
+    // Returns a list of all Materials on this GameObject or its children
     static public Material[] GetAllMaterials(GameObject go)
     {
         List<Material> mats = new List<Material>();
@@ -233,9 +235,7 @@ public class Utils : MonoBehaviour
         }
         return (mats.ToArray());
     }
-}// End of Util Class
- //=========================== Materials Functions ============================\\
- // Returns a list of all Materials on this GameObject or its children
+}    // End of Util Class
 
 
 
