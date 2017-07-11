@@ -36,6 +36,16 @@ public class Projectile : MonoBehaviour
     void CheckOffscreen()
     {
         if (Utils.ScreenBoundsCheck(GetComponent<Collider>().bounds, BoundsTest.offScreen) != Vector3.zero)
+        {
             Destroy(this.gameObject);
+        }
+    }
+    void Start()
+    {
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
     }
 }
